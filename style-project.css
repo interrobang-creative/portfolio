@@ -1,3 +1,5 @@
+
+
 /*
 --------------
 PROJECT COLOURING
@@ -131,6 +133,58 @@ COVER & TITLE
 	transform: translateX(-50%);
 }
 
+.project-events {
+	text-align: center;
+
+	overflow: hidden;
+
+	margin: 1em auto 5em auto;
+
+	width: 90vw;
+	max-width: 1130px;
+	text-align: center;
+	position: relative;
+	outline: 0px solid lightgrey;
+}
+
+.project-events img {
+	width: 140px;
+	height: 100px;
+	min-height: 100px;
+	margin: 0 0.5em;
+}
+
+@media only screen and (max-width: 335px) {
+
+	.project-events img  {
+		margin: 0;
+	}
+
+}
+
+@media only screen and (min-width: 760px) {
+
+	.project-events img  {
+		margin: 0 1em;
+	}
+
+}
+
+@media only screen and (min-width: 898px) {
+
+	.project-events-hidden  {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 1078px) {
+
+	.project-events-hidden  {
+		display: inline;
+	}
+
+}
 
 /* TITLE GENERAL STYLING */
 
@@ -200,6 +254,12 @@ TITLE RESPONSIVENESS
 }
 
 .project-description {
+	margin: auto;
+	max-width: 50em;
+	text-align: center;
+}
+
+.contact-description {
 	margin: auto;
 	max-width: 50em;
 	text-align: center;
@@ -311,7 +371,7 @@ IMAGE STYLING
 .project-section-description {
 	font-size: 1.5em;
 	max-width: 90em;
-	margin: 0.5em auto 0.5em auto;
+	margin: 1em auto 0.5em auto;
 	color: #999999;
 }
 
@@ -322,15 +382,21 @@ SPONSORS GRID
 --------------
 */
 
+
 .project-sponsors {
 	margin: 5em auto;
 
 	width: 90vw;
-	max-width: 90em;
+	max-width: 75em;
 	text-align: center;
 	position: relative;
-
 }
+
+
+
+
+
+
 
 #sponsors-grid {
 	margin: auto;
