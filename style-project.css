@@ -375,6 +375,22 @@ IMAGE STYLING
 	color: #999999;
 }
 
+.project-mobile-alt {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.project-mobile-alt {
+		display: block;
+	}
+
+	.project-desktop-alt {
+		display: none;
+	}
+
+}
+
 
 /*
 --------------
